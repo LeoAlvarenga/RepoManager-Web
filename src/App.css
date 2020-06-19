@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: 0;
+}
+
+body {
+    background: #7159c1;
+    font: 14px sans-serif;
+    color: #ffffff;
+}
+
+main {
+    margin: 20px;
+    padding: 20px;
+}
+
+.card {
+    padding: 1em;
+    margin: 1em;
+    height: 100px;
+    display: inline-block;
+    align-items: center;
+    border: solid 0px #ffffff;
+    border-radius: 10px;
+    width: 14em;
+    background-color: #ffffff;
+    box-shadow: 3px 3px 8px black ;
+    color: #333333;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 5px 5px 8px black ;
+    transition: 400ms;
+}
+
+.card-title {
+    display: inline-block;
+    text-align: left;
+    font-weight: bold;
+    margin-bottom: 1em;
+    flex: 8;
+}
+
+.delete-icon:hover {
+    cursor: pointer;
+    opacity: 0.9;
+    transform: scale(1.1);
+    transition: 300ms;
+}
+
+footer {
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1em;
+    background-color: #7159c1
+;
+
+}
+
+.add-button {
+    background-color: #2dad13;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 1em 2em;
+    border-width: 0;
+    border-radius: 30px;
+}
+
+.add-button:hover {
+    cursor: pointer;
+}
+
+.dialog-title {
+    color: #7159c1;
+}
+
+.dialog {
+    background-color: #ffffff;
+}
+
+form fieldset {
+    margin-top: 64px;
+    min-inline-size: auto;
+    border: 0;
+  }
+
+  form .field-group {
+      flex: 1;
+      display: flex;
+    }
+
+form .field {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 24px;
+    margin: 0 10px;
+  }
+
+form .field input {
+    flex: 1;
+    background: #f0f0f5;
+    border-radius: 8px;
+    border: 0;
+    padding: 16px 24px;
+    font-size: 16px;
+    color: #7159c1;
+  }
+  
